@@ -5,6 +5,7 @@ import seedRouter from './routes/seedRoutes.js';
 import productRouter from './routes/productRoute.js';
 import userRouter from './routes/userRoutes.js';
 import orderRouter from './routes/orderRoutes.js';
+import cors from 'cors'
 
 dotenv.config();
 
